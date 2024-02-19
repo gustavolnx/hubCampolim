@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.scene-1 {
+        width: 90%;
+        height: 68%;
+        background-image: url('../image/fundo-localizacao.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 23%;
+        left: 5%;
+    }
+.cabecalho {
+	width: 102%;
+	height: 18%;
+	background-image: url('../image/cabecalho-localizacao.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 100;
+	left: -2%;
+}
+
+.btn-conveniencia {
+	width: 20%;
+	height: 10%;
+	background-image: url('../image/btn-conveniencias-select.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 1001;
+	left: 28%;
+	top: 5%;
+}
+
+.btn-panoramica {
+    width: 20%;
+    height: 10%;
+    background-image: url('../image/btn-panoramica.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1001;
+    left: 50%;
+    top: 5%;
+}
+
+
+.btn-voltar {
+	width: 17%;
+	height: 4%;
+	position: absolute;
+	top: 7.4%;
+	left: 91%;
+	transform: translate(-50%, -50%);
+	background-image: url('../image/btn-voltar.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 1001;
+}
+.btn-home {
+	width: 5%;
+	height: 11%;
+	position: absolute;
+	top: 1.6%;
+	left: 12%;
+	/* border: 1px solid red; */
+	z-index: 102;
+}
+
+.btn-mais-bairro {
+	width: 20%;
+	height: 10%;
+	background-image: url('../image/btn-mais-bairro-select.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 1001;
+	left: 73%;
+	top: 31%;
+}
+
+.btn-conveniencia,
+.btn-panoramica,
+.btn-mais-bairro,
+.scene-1 {
+    opacity: 0;
+    transition: opacity 1s ease-in-out; 
+}
+
+
+.btn-panoramica{
+	animation: fadeIn 0.3s ease-in-out 0.6s forwards;
+
+}
+
+
+.btn-conveniencia {
+    animation: fadeIn 0.3s ease-in-out 0.3s forwards;
+	
+}	
+
+.btn-mais-bairro {
+	animation: fadeIn 0.3s ease-in-out 0.75s forwards;
+	
+}
+
+.scene-1 {
+	animation: fadeIn 0.3s ease-in-out 0.65s forwards;
+}
+
+
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}

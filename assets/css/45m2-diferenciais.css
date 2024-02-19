@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.scene-1 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: url('../image/fundo-45m2diferenciais.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+}
+.btn-voltar {
+	position: absolute;
+	width: 5%;
+	height: 5%;
+	top: 4%;
+	left: 92%;
+	background-image: url('../image/btn-voltar-ciano.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.btn-diferenciais {
+	position: absolute;
+	width: 21%;
+	height: 6%;
+	top: 44%;
+	left: 5%;
+	background-image: url('../image/btn-diferenciais.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.btn-galeria{
+	position: absolute;
+	width: 21%;
+	height: 6%;
+	top: 52%;
+	left: 5%;
+	background-image: url('../image/btn-galeria-plantas.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.texto-45m2-diferenciais {
+	position: absolute;
+	width: 80%;
+	height: 73.2%;
+	top: 10%;
+	left: 10%;
+	background-image: url('../image/texto-diferenciais45m2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.btn-close {
+	position: absolute;
+	width: 5%;
+	height: 8%;
+	top: 80%;
+	left: 48%;
+	background-image: url('../image/btn-close.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 300;
+}
+
+
+.texto-45m2-diferenciais,
+.btn-close {
+    opacity: 0;
+    transition: opacity 1s ease-in-out; 
+}
+
+
+.texto-45m2-diferenciais{
+	animation: fadeIn 0.3s ease-in-out 0.3s forwards;
+
+}
+
+.btn-close{
+	animation: fadeIn 0.3s ease-in-out 0.5s forwards;
+}
+
+
+
+
+
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}

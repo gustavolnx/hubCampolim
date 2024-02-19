@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.scene-1 {
+        width: 102%;
+        height: 100%;
+        background-image: url('../image/fundo-mais-bairro.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -1%;
+    }
+
+
+.btn-conveniencia {
+	width: 20%;
+	height: 10%;
+	background-image: url('../image/btn-conveniencias-select.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 1001;
+	left: 28%;
+	top: 5%;
+}
+
+.btn-panoramica {
+    width: 20%;
+    height: 10%;
+    background-image: url('../image/btn-panoramica.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1001;
+    left: 50%;
+    top: 5%;
+}
+
+
+.btn-voltar {
+	width: 17%;
+	height: 4%;
+	position: absolute;
+	top: 7.4%;
+	left: 91%;
+	transform: translate(-50%, -50%);
+	background-image: url('../image/btn-voltar.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 1001;
+}
+.btn-home {
+	width: 5%;
+	height: 11%;
+	position: absolute;
+	top: 1.6%;
+	left: 12%;
+	/* border: 1px solid red; */
+	z-index: 102;
+}
+
+.btn-mais-bairro {
+	width: 20%;
+	height: 10%;
+	background-image: url('../image/btn-mais-bairro-select.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 1001;
+	left: 73%;
+	top: 31%;
+}
+
+.texto-mais-bairro {
+	width: 58.35%;
+	height: 72%;
+	position: absolute;
+	top: 12%;
+	left: 20%;
+	z-index: 1001;
+	background-image: url('../image/texto-mais-bairro.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.btn-close {
+	width: 6%;
+	height: 10%;
+	background-image: url('../image/btn-close.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 1001;
+	left: 48%;
+	top: 79%;
+}
+
+
+.texto-mais-bairro,
+.btn-close {
+    opacity: 0;
+    transition: opacity 1s ease-in-out; 
+}
+
+.btn-close {
+	animation: fadeIn 0.3s ease-in-out 0.6s forwards;
+	
+}	
+
+.texto-mais-bairro{
+	animation: fadeIn 0.3s ease-in-out 0.3s forwards;
+
+}
+
+
+
+
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}

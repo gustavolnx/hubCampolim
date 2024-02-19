@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.scene-1 {
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/fundo-projetistas.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.texto-projeto {
+	width: 80%;
+	height: 61%;
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-image: url('../image/texto-projeto.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 5;
+	/* border: 1px solid red; */
+}
+.btn-projetistas {
+	width: 20%;
+	height: 10%;
+	position: absolute;
+	top: 9%;
+	left: 38%;
+	transform: translate(-50%, -50%);
+	background-image: url('../image/btn-projetistas-select.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 5;
+}
+
+.btn-ficha{
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    top: 9%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    background-image: url('../image/btn-ficha.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+
+.btn-voltar {
+	width: 17%;
+	height: 4%;
+	position: absolute;
+	top: 6.6%;
+	left: 91%;
+	transform: translate(-50%, -50%);
+	background-image: url('../image/btn-voltar.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 5;
+}
+.btn-home {
+	width: 5%;
+	height: 11%;
+	position: absolute;
+	top: 1.6%;
+	left: 12%;
+	/* border: 1px solid red; */
+	z-index: 5;
+}
+
+
+.btn-projetistas,
+.btn-ficha {
+    opacity: 0;
+    transition: opacity 1s ease-in-out; 
+}
+
+
+
+.btn-projetistas {
+    animation: fadeIn 0.3s ease-in-out 0.3s forwards;
+}
+
+.btn-ficha{
+	animation: fadeIn 0.3s ease-in-out 0.6s forwards;
+
+}
+
+
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
