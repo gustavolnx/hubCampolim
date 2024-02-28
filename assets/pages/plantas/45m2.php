@@ -14,7 +14,7 @@
     <div class="btn-voltar" onclick="history.back()"></div>
     <div class="btn-diferenciais" onclick="location.href='./45m2-diferenciais.php'"></div>
     <div class="btn-galeria" onclick="location.href='./45m2-galeria.php'"></div>
-
+    <script src="../../../goHome.js"></script>
 </body>
 
 </html>

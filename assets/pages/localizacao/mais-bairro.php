@@ -13,6 +13,8 @@
     <div class="scene-1" onclick="location.href='./localizacao.php'"></div>
     <div class="texto-mais-bairro"></div>
     <div class="btn-close" onclick="location.href='./localizacao.php'"></div>
+    <script src="../../../goHome.js"></script>
+
 
 </body>
 

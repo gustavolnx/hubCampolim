@@ -13,6 +13,7 @@
     <div class="scene-1" onclick="history.back()"></div>
     <div class="texto-45m2-diferenciais"></div>
     <div class="btn-close" onclick="history.back()"></div>
+    <script src="../../../goHome.js"></script>
 </body>
 
 </html>

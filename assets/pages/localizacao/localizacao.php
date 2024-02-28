@@ -16,6 +16,8 @@
     <div class="btn-voltar" onclick="history.back()"></div>
     <div class="btn-mais-bairro" onclick="location.href='./mais-bairro.php'"></div>
     <div class="btn-home" onclick="location.href='../home/home.php'"></div>
+    <script src="../../../goHome.js"></script>
+
 </body>
 
 </html>

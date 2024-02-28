@@ -22,6 +22,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="./main.js"></script>
+    <script src="../../../goHome.js"></script>
 </body>
 
 </html>

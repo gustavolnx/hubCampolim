@@ -69,6 +69,8 @@
             updateGallery();
         });
     </script>
+
+    <script src="../../../goHome.js"></script>
 </body>
 
 </html>

@@ -14,7 +14,7 @@
     <div class="scene-2"></div>
     <div class="btn-close" onclick="location.href='./galeria.php'"></div>
 
-
+    <script src="../../../goHome.js"></script>
 </body>
 
 </html>

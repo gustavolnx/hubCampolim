@@ -15,7 +15,7 @@
     <div class="btn-ficha" onclick="location.href='./projeto-ficha.php'"></div>
     <div class="btn-voltar" onclick="history.back()"></div>
     <div class="btn-home" onclick="location.href='../home/home.php'"></div>
-
+    <script src="../../../goHome.js"></script>
 
 </body>
 

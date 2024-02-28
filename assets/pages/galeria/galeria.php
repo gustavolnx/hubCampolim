@@ -14,9 +14,9 @@
     <div class="scene-2"></div>
     <div class="btn-implantacao"></div>
     <div class="btn-voltar" onclick="location.href='../home/home.php'"></div>
+    <div class="btn-implantacao" onclick="location.href='./implantacao.php'"></div>
     <div class="btn-right"></div>
     <div class="btn-left"></div>
-    <div class="btn-implantacao" onclick="location.href='./implantacao.php'"></div>
 
 
 
@@ -71,6 +71,8 @@
             updateGallery();
         });
     </script>
+
+    <script src="../../../goHome.js"></script>
 </body>
 
 </html>

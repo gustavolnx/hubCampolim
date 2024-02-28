@@ -14,6 +14,7 @@
     <div class="btn-45m2" onclick="location.href='./45m2.php'"></div>
     <div class="btn-56m2" onclick="location.href='./56m2.php'"></div>
     <div class="btn-voltar" onclick="history.back()"></div>
+    <script src="../../../goHome.js"></script>
 </body>
 
 </html>
