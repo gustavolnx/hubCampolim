@@ -40,25 +40,25 @@
                 const img = new Image();
                 img.onload = function() {
                     gallery.style.backgroundImage = `url('${imagePath}')`;
-                    gallery.style.backgroundSize = "1500px 700px";
+                    gallery.style.backgroundSize = "100% 100%";
                     gallery.style.backgroundRepeat = "no-repeat";
                 };
                 img.onerror = function() {
                     // Se não encontrar a imagem em formato jpg, tenta png
                     gallery.style.backgroundImage = `url('${alternativeImagePath}')`;
-                    gallery.style.backgroundSize = "1500px 700px";
+                    gallery.style.backgroundSize = "100% 100%";
                     gallery.style.backgroundRepeat = "no-repeat";
                 };
                 img.src = imagePath;
             }
 
             function nextImage() {
-                currentImageIndex = (currentImageIndex % 39) + 1;
+                currentImageIndex = (currentImageIndex % 28) + 1;
                 updateGallery();
             }
 
             function prevImage() {
-                currentImageIndex = (currentImageIndex - 2 + 39) % 39 + 1;
+                currentImageIndex = (currentImageIndex - 2 + 28) % 28 + 1;
                 updateGallery();
             }
 
